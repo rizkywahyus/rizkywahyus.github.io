@@ -15,7 +15,7 @@ export const NAV_LINKS = [
 
 // ─── Hero Content ───
 export const HERO_CONTENT = {
-  headlinePre: "Building",
+  headlinePre: "Build",
   headlineHighlight: "Innovations",
   headlinePost: "People Love",
   description:
@@ -33,7 +33,7 @@ export const TECH_STACK = [
   { name: "GCP & Firebase", icon: "cloud", iconFill: true, colorClass: "bg-[#FFCA28] text-black" },
   { name: "IoT & BLE", icon: "bluetooth", iconFill: true, colorClass: "bg-[#0082FC] text-white" },
   { name: "Payment Gateway", icon: "payments", iconFill: true, colorClass: "bg-[#00C853] text-black" },
-  { name: "PostgreSQL", icon: "database", iconFill: true, colorClass: "bg-[#336791] text-white" },
+  { name: "SQL & NoSQL", icon: "database", iconFill: true, colorClass: "bg-[#336791] text-white" },
   { name: "Docker", icon: "directions_boat", iconFill: true, colorClass: "bg-[#2496ED] text-white" },
 ];
 
