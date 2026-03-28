@@ -1,0 +1,25 @@
+export default function ContactForm() {
+  const waMessage = "Hi Rizky! Found your website and I'd love to chat about a potential project. Let's collaborate!";
+  const waUrl = `https://wa.me/6283834998685?text=${encodeURIComponent(waMessage)}`;
+
+  return (
+    <div id="contact" className="bg-primary-container brutalist-border !border-black p-10 md:p-16 brutalist-shadow !shadow-[#000] text-center text-black">
+      <h2 className="font-headline font-black text-5xl md:text-6xl uppercase tracking-tighter mb-6 text-black">
+        Let's Build Something Great
+      </h2>
+
+      <p className="font-body text-xl md:text-2xl text-neutral-800 mb-12 max-w-3xl mx-auto font-medium">
+        I'm always open to discussing new IT-based projects, innovative ideas, or opportunities to be part of your next big vision. Drop me a line and let's collaborate!
+      </p>
+
+      <a
+        href={waUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block bg-background text-black font-headline font-black text-2xl md:text-3xl uppercase py-6 px-12 border-[4px] border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-x-[8px] active:translate-y-[8px] active:shadow-none transition-all"
+      >
+        COLLABORATE ↗
+      </a>
+    </div>
+  );
+}

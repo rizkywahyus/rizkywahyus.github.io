@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base Styles ── */
+body {
+  background-color: #fbfbfa;
+  color: #1e1e1e;
+  font-family: 'Work Sans', sans-serif;
+  @apply dark:bg-[#181818] dark:text-[#e0e0e0];
+}
+
+/* ── Brutalist Utilities ── */
+@layer components {
+  .brutalist-border {
+    border: 4px solid #000000;
+    @apply dark:border-white;
+  }
+
+  .brutalist-shadow {
+    box-shadow: 8px 8px 0px 0px #000000;
+    @apply dark:shadow-[8px_8px_0px_0px_#ffffff];
+  }
+
+  .brutalist-shadow-hover:hover {
+    box-shadow: 12px 12px 0px 0px #000000;
+    transform: translate(-4px, -4px);
+    @apply dark:shadow-[12px_12px_0px_0px_#ffffff];
+  }
+
+  .brutalist-shadow-active:active {
+    box-shadow: 0px 0px 0px 0px #000000;
+    transform: translate(8px, 8px);
+    @apply dark:shadow-none;
+  }
+}
+
+/* ── Material Symbols ── */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ── Scroll behavior ── */
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 100px;
+}
+
+/* ── Focus visible for accessibility ── */
+*:focus-visible {
+  outline: 3px solid #004be2;
+  outline-offset: 2px;
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: #f3f300;
+  color: #000000;
+}
