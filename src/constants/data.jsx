@@ -164,6 +164,13 @@ export const INTERNAL_PROJECTS = [
   },
   {
     year: "2023",
+    client: "PT. Bejana Inovasi Global",
+    project: "Hifz - Qur'an memorizing apps",
+    tech: ["Flutter", "Firebase", "Java"],
+    role: "Tech Lead"
+  },
+  {
+    year: "2022",
     client: "PT. Bio Farma",
     project: "CTMS - Clinical Trial Monitoring System for Vaccines",
     tech: ["Docker", "Nginx"],
@@ -175,6 +182,13 @@ export const INTERNAL_PROJECTS = [
     project: "TJSL - Corporate Social Responsibility (CSR) System",
     tech: ["ASP.NET"],
     role: "Software Engineer"
+  },
+  {
+    year: "2021",
+    client: "PT. Bejana Inovasi Global",
+    project: "Dzikra - Islamic habit building apps",
+    tech: ["Flutter", "Firebase", "Java"],
+    role: "Mobile Apps Engineer"
   },
   {
     year: "2021",
