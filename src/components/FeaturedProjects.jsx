@@ -1,11 +1,9 @@
-import { PROJECTS } from "../constants/data";
 
 function ProjectCard({ badge, badgeClass, title, description, tags, image, imageAlt, reversed }) {
   return (
     <div
-      className={`flex flex-col ${
-        reversed ? "md:flex-row-reverse" : "md:flex-row"
-      } gap-12 items-start`}
+      className={`flex flex-col ${reversed ? "md:flex-row-reverse" : "md:flex-row"
+        } gap-12 items-start`}
     >
       {/* Project Image */}
       <div className="w-full md:w-3/5 brutalist-border bg-black brutalist-shadow relative overflow-hidden aspect-video">
@@ -57,17 +55,3 @@ function ProjectCard({ badge, badgeClass, title, description, tags, image, image
   );
 }
 
-export default function FeaturedProjects() {
-  return (
-    <section id="projects" className="py-20">
-      <h2 className="font-headline font-bold text-5xl md:text-7xl uppercase tracking-tighter mb-16 underline decoration-[8px] decoration-primary-container underline-offset-8">
-        Featured_Work
-      </h2>
-      <div className="flex flex-col gap-24">
-        {PROJECTS.map((project) => (
-          <ProjectCard key={project.id} {...project} />
-        ))}
-      </div>
-    </section>
-  );
-}

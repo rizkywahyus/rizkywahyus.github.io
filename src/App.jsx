@@ -6,7 +6,6 @@ import ScrollToTop from "./components/ScrollToTop";
 
 // Lazy load below-fold sections for faster initial paint
 const TechStack = lazy(() => import("./components/TechStack"));
-const FeaturedProjects = lazy(() => import("./components/FeaturedProjects"));
 const InternalProjects = lazy(() => import("./components/InternalProjects"));
 const ExperienceTimeline = lazy(() => import("./components/ExperienceTimeline"));
 const ContactForm = lazy(() => import("./components/ContactForm"));
@@ -30,9 +29,6 @@ export default function App() {
         <Suspense fallback={<LazyFallback />}>
           <TechStack />
         </Suspense>
-        {/* <Suspense fallback={<LazyFallback />}>
-          <FeaturedProjects />
-        </Suspense> */}
         <Suspense fallback={<LazyFallback />}>
           <InternalProjects />
         </Suspense>

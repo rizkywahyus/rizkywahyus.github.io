@@ -19,7 +19,7 @@ export const HERO_CONTENT = {
   headlineHighlight: "Innovations",
   headlinePost: "People Love",
   description:
-    "👋 Hello! I'm Rizky, an Engineering Leader and Mobile Apps Expert with over 8 years of experience crafting high-performance cross-platform applications and robust enterprise ecosystems. I specialize in orchestrating technical excellence to deliver impactful digital solutions.",
+    "👋 Hello! I'm Rizky, an Engineering Leader and Mobile Apps Expert with over 7 years of experience crafting high-performance cross-platform applications and robust enterprise ecosystems. I specialize in orchestrating technical excellence to deliver impactful digital solutions.",
   ctaPrimary: "View Projects",
   ctaSecondary: "Get in Touch",
   sectionNumber: "01",
@@ -35,36 +35,6 @@ export const TECH_STACK = [
   { name: "Payment Gateway", icon: "payments", iconFill: true, colorClass: "bg-[#00C853] text-black" },
   { name: "SQL & NoSQL", icon: "database", iconFill: true, colorClass: "bg-[#336791] text-white" },
   { name: "Docker", icon: "directions_boat", iconFill: true, colorClass: "bg-[#2496ED] text-white" },
-];
-
-// ─── Featured Projects ───
-export const PROJECTS = [
-  {
-    id: "hyperion-ledger",
-    badge: "FINTECH_DASHBOARD",
-    badgeClass: "text-primary bg-primary-container",
-    title: "Hyperion Ledger",
-    description:
-      "A high-frequency trading visualization tool built with React and WebAssembly for sub-millisecond data rendering.",
-    tags: ["REACT", "RUST", "WEBGL"],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDaXtYMxb3vu0NIYEjLJoKGppW1LppLfMDDWocCW4R1XVkE0Jwzb1OiiaPgcHpNLQlP8ICYkPswVsZR3JpV4TbQWd9MoTYgDeSY5zXNrWWAY4HWjBzcxxsxq1zE-JDFUWLdbZ626VQTbobNaPg9T08fe3fNXmKHRIVQyYIseD2NKz7pYmPeb4yoIJbE_vqYXDlNiOI0lfgtZXme-R392j4p8-yJvZGHZyTOewngMa6baqnHcaR32iYOp2Ylgbhuw1Yqw0kebaMLHp2I",
-    imageAlt: "Code editor interface with syntax highlighting",
-    reversed: false,
-  },
-  {
-    id: "nexus-core",
-    badge: "SAAS_PLATFORM",
-    badgeClass: "text-white bg-secondary",
-    title: "Nexus Core",
-    description:
-      "Unified identity management system for enterprise ecosystems, processing 2M+ daily authentications.",
-    tags: ["GOLANG", "REDIS", "DOCKER"],
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBgiyLDYnuV8bV-wYWJQRXy_izKhwj77DJxlMEZeGG1nowNNMONpbx7t2G-dlXTGra0_EbFzWw--AiwAWFYD3_yVSxcaVTiGejf4Yo0DHGmK5g1ftZOVBrmdwdBYW-4ClZxqG2PxElAjzC-GHv33ZOCKRFib07dWI9_fPGHJidqBeESuYuAJGXiKk9ChUb2ToCcmOIf6EjTVYO8P5UtOqPU5SvohctKdFAGo9ot8A4AlZOPu8laRHoViuInlc277iWKeKhm1irBX9IN",
-    imageAlt: "Abstract futuristic architectural data structures",
-    reversed: true,
-  },
 ];
 
 
