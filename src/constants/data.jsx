@@ -132,7 +132,7 @@ export const INTERNAL_PROJECTS = [
     year: "2024",
     client: "PT. Gapura Angkasa",
     project: "JOUMPA - Airport assistance service system",
-    tech: ["Docker", "Nginx"],
+    tech: ["Flutter", "Firebase", "Java"],
     role: "Tech Lead",
     storeLinks: {
       android: "https://play.google.com/store/apps/details?id=id.bigio.gapura.joumpa&hl=id",
