@@ -119,6 +119,43 @@ export default function InternalProjects() {
                         ))}
                       </div>
                     )}
+                    {(proj.storeLinks || proj.websiteUrl) && (
+                      <div className="flex gap-2 flex-wrap">
+                        {proj.websiteUrl && (
+                          <a
+                            href={proj.websiteUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-label text-xs font-bold border-2 border-black dark:border-white group-hover:border-black px-2 py-0.5 uppercase tracking-wider bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition-opacity"
+                            onClick={e => e.stopPropagation()}
+                          >
+                            ↗ Website
+                          </a>
+                        )}
+                        {proj.storeLinks && (
+                          <>
+                            <a
+                              href={proj.storeLinks.android}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-label text-xs font-bold border-2 border-black dark:border-white group-hover:border-black px-2 py-0.5 uppercase tracking-wider bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition-opacity"
+                              onClick={e => e.stopPropagation()}
+                            >
+                              ▶ Google Play
+                            </a>
+                            <a
+                              href={proj.storeLinks.ios}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="font-label text-xs font-bold border-2 border-black dark:border-white group-hover:border-black px-2 py-0.5 uppercase tracking-wider bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition-opacity"
+                              onClick={e => e.stopPropagation()}
+                            >
+                               App Store
+                            </a>
+                          </>
+                        )}
+                      </div>
+                    )}
                   </div>
                 </td>
                 <td className="py-6 px-6 font-body font-bold align-top w-48">

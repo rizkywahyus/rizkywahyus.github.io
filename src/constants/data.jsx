@@ -29,8 +29,8 @@ export const HERO_CONTENT = {
 export const TECH_STACK = [
   { name: "Flutter", icon: "devices", iconFill: true, colorClass: "bg-[#02569B] text-white" },
   { name: "React", icon: "code", iconFill: true, colorClass: "bg-[#61DAFB] text-black" },
-  { name: "Node.js", icon: "terminal", iconFill: true, colorClass: "bg-[#339933] text-white" },
-  { name: "GCP & Firebase", icon: "cloud", iconFill: true, colorClass: "bg-[#FFCA28] text-black" },
+  { name: "Node.js", icon: "terminal", iconFill: true, colorClass: "bg-[#FFCA28] text-black" },
+  { name: "GCP & Firebase", icon: "cloud", iconFill: true, colorClass: "bg-[#FF9100] text-black" },
   { name: "IoT & BLE", icon: "bluetooth", iconFill: true, colorClass: "bg-[#0082FC] text-white" },
   { name: "Payment Gateway", icon: "payments", iconFill: true, colorClass: "bg-[#00C853] text-black" },
   { name: "SQL & NoSQL", icon: "database", iconFill: true, colorClass: "bg-[#336791] text-white" },
@@ -109,35 +109,54 @@ export const INTERNAL_PROJECTS = [
     client: "PT. Bejana Inovasi Global",
     project: "Stori Studio - Photo studio apps",
     tech: ["Flutter", "Sony PTP", "BLE Connection"],
-    role: "Mobile Apps Engineer"
+    role: "Tech Lead",
+    storeLinks: {
+      android: "https://play.google.com/store/apps/details?id=id.stori.studio.customer&hl=id",
+      ios: "https://apps.apple.com/id/app/stori-studio-gas-shoot/id6759705626",
+    },
+    websiteUrl: "https://storistudio.id",
   },
   {
     year: "2025",
     client: "PT. Bejana Inovasi Global",
     project: "Dzikra - Islamic habit building apps",
     tech: ["Flutter", "Firebase", "Java"],
-    role: "Project Manager"
+    role: "Tech Lead",
+    storeLinks: {
+      android: "https://play.google.com/store/apps/details?id=id.bigio.dzikra&hl=id",
+      ios: "https://apps.apple.com/id/app/dzikra-quran-dzikir-habit/id1578710750",
+    },
+    websiteUrl: "https://dzikra.app",
   },
   {
     year: "2024",
     client: "PT. Gapura Angkasa",
     project: "JOUMPA - Airport assistance service system",
     tech: ["Docker", "Nginx"],
-    role: "DevOps Engineer"
+    role: "Tech Lead",
+    storeLinks: {
+      android: "https://play.google.com/store/apps/details?id=id.bigio.gapura.joumpa&hl=id",
+      ios: "https://apps.apple.com/id/app/joumpa-for-customer/id1600399708",
+    },
+    websiteUrl: "https://joumpa.com",
   },
   {
     year: "2023",
     client: "PT. Adaro Mining Technologies",
     project: "AWS - Adaro Water Solutions System",
     tech: ["Java", "Spring Boot"],
-    role: "Software Engineer"
+    role: "Tech Lead"
   },
   {
     year: "2023",
     client: "PT. Bejana Inovasi Global",
     project: "Hifz - Qur'an memorizing apps",
     tech: ["Flutter", "Firebase", "Java"],
-    role: "Tech Lead"
+    role: "Tech Lead",
+    storeLinks: {
+      android: "https://play.google.com/store/apps/details?id=id.bigio.dzikra.quran&hl=id",
+      ios: "https://apps.apple.com/id/app/hifz-hafalan-quran-modern/id6477821048",
+    },
   },
   {
     year: "2022",
@@ -158,7 +177,12 @@ export const INTERNAL_PROJECTS = [
     client: "PT. Bejana Inovasi Global",
     project: "Dzikra - Islamic habit building apps",
     tech: ["Flutter", "Firebase", "Java"],
-    role: "Mobile Apps Engineer"
+    role: "Mobile Apps Engineer",
+    storeLinks: {
+      android: "https://play.google.com/store/apps/details?id=id.bigio.dzikra&hl=id",
+      ios: "https://apps.apple.com/id/app/dzikra-quran-dzikir-habit/id1578710750",
+    },
+    websiteUrl: "https://dzikra.app",
   },
   {
     year: "2021",
