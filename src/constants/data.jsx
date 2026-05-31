@@ -120,7 +120,7 @@ export const INTERNAL_PROJECTS = [
     year: "2025",
     client: "PT. Bejana Inovasi Global",
     project: "Dzikra - Islamic habit building apps",
-    tech: ["Flutter", "Firebase", "Java"],
+    tech: ["Flutter", "Firebase", "Java Spring Boot"],
     role: "Tech Lead",
     storeLinks: {
       android: "https://play.google.com/store/apps/details?id=id.bigio.dzikra&hl=id",
@@ -132,7 +132,7 @@ export const INTERNAL_PROJECTS = [
     year: "2024",
     client: "PT. Gapura Angkasa",
     project: "JOUMPA - Airport assistance service system",
-    tech: ["Flutter", "Firebase", "Java"],
+    tech: ["Flutter", "Firebase", "Java Spring Boot"],
     role: "Tech Lead",
     storeLinks: {
       android: "https://play.google.com/store/apps/details?id=id.bigio.gapura.joumpa&hl=id",
@@ -144,14 +144,14 @@ export const INTERNAL_PROJECTS = [
     year: "2023",
     client: "PT. Adaro Mining Technologies",
     project: "AWS - Adaro Water Solutions System",
-    tech: ["Java", "Spring Boot"],
+    tech: ["Java Spring Boot"],
     role: "Tech Lead"
   },
   {
     year: "2023",
     client: "PT. Bejana Inovasi Global",
     project: "Hifz - Qur'an memorizing apps",
-    tech: ["Flutter", "Firebase", "Java"],
+    tech: ["Flutter", "Firebase", "Express"],
     role: "Tech Lead",
     storeLinks: {
       android: "https://play.google.com/store/apps/details?id=id.bigio.dzikra.quran&hl=id",
@@ -162,7 +162,7 @@ export const INTERNAL_PROJECTS = [
     year: "2022",
     client: "PT. Bio Farma",
     project: "CTMS - Clinical Trial Monitoring System for Vaccines",
-    tech: ["Docker", "Nginx"],
+    tech: ["ExpressJS", "Docker", "Nginx"],
     role: "DevOps Engineer"
   },
   {
@@ -176,7 +176,7 @@ export const INTERNAL_PROJECTS = [
     year: "2021",
     client: "PT. Bejana Inovasi Global",
     project: "Dzikra - Islamic habit building apps",
-    tech: ["Flutter", "Firebase", "Java"],
+    tech: ["Flutter", "Firebase", "Java Spring Boot"],
     role: "Mobile Apps Engineer",
     storeLinks: {
       android: "https://play.google.com/store/apps/details?id=id.bigio.dzikra&hl=id",
