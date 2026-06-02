@@ -118,7 +118,7 @@ export default function Navbar() {
 
         {/* CTA Button */}
         <a
-          href="https://wa.me/6283834998685?text=Hi%20Alfin!%20Found%20your%20website%20and%20I'd%20love%20to%20chat%20about%20a%20potential%20project.%20Let's%20collaborate!"
+          href="https://wa.me/6283834998685?text=Hi%20Rizky!%20Found%20your%20website%20and%20I'd%20love%20to%20chat%20about%20a%20potential%20project.%20Let's%20collaborate!"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:inline-block bg-yellow-400 text-black font-headline font-bold uppercase brutalist-border !border-black px-6 py-2 shadow-[8px_8px_0px_0px_#000000] hover:translate-x-[4px] hover:translate-y-[4px] hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] active:translate-x-[8px] active:translate-y-[8px] active:shadow-none transition-all"
@@ -162,7 +162,7 @@ export default function Navbar() {
             );
           })}
           <a
-            href="https://wa.me/6283834998685?text=Hi%20Alfin!%20Found%20your%20website%20and%20I'd%20love%20to%20chat%20about%20a%20potential%20project.%20Let's%20collaborate!"
+            href="https://wa.me/6283834998685?text=Hi%20Rizky!%20Found%20your%20website%20and%20I'd%20love%20to%20chat%20about%20a%20potential%20project.%20Let's%20collaborate!"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-yellow-400 text-black text-center brutalist-border !border-black px-6 py-3 shadow-[8px_8px_0px_0px_#000] mt-2"
